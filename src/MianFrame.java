@@ -30,8 +30,8 @@ public class MianFrame extends JFrame {
         jtaR.setPreferredSize(new Dimension(200, 400));
         jtaR.setLineWrap(true);
         jtaL.setLineWrap(true);
-        cp.add(jtaL, BorderLayout.WEST);
-        cp.add(jtaR, BorderLayout.EAST);
+        cp.add(jspL, BorderLayout.WEST);
+        cp.add(jspR, BorderLayout.EAST);
         jpnc.add(jb1);
         jpnc.add(jb2);
         jpnc.add(lb1);
